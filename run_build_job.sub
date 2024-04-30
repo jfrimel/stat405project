@@ -1,16 +1,16 @@
 universe = vanilla
-log = run_build_job.log
+log = job.log
+output = job.out
+error = job.err
 executable = run_build_job.sh
-output = run_build_job.out
-error = run_build_job.err
 
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 
-transfer_input_files = kaggle.json, http://proxy.chtc.wisc.edu/SQUID/chtc/python37.tar.gz
+transfer_input_files = http://proxy.chtc.wisc.edu/SQUID/chtc/el8/python37.tar.gz, http://proxy.chtc.wisc.edu/SQUID/chtc/el8/R413.tar.gz, kaggle.json
+
 
 request_cpus = 1
-request_memory = 2GB
-request_disk = 5GB
-
-queue 1
+request_memory = 4GB
+request_disk = 25GB
+queue
