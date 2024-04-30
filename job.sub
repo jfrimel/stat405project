@@ -1,0 +1,13 @@
+universe = vanilla
+executable = run_python.sh
+transfer_input_files = my_python_env.tar.gz, analyze_data.py, kaggle.json
+
+log = analysis.log
+output = analysis.out
+error = analysis.err
+
+request_cpus = 1
+request_memory = 4GB
+request_disk = 10GB
+
+queue
