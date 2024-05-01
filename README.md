@@ -11,8 +11,12 @@ analyze_data.py: Python script that performs the data analysis (ensure this scri
 kaggle.json: Contains Kaggle API credentials.
 
 
-**Steps to Run the Job:**
 
+
+
+
+
+**Steps to Run the Job:**
 **Prepare Your Workspace:**
 Ensure you have the build_data.sh, build_data.sub, analyze_data.py, and kaggle.json files in your working directory on the HTCondor submission node (e.g., learn.chtc.wisc.edu).
 
@@ -22,16 +26,24 @@ Navigate to the directory containing your files.
 Submit the job to HTCondor by running the following command:
 bash
 
-**condor_submit build_data.sub**
 
+
+
+
+
+**condor_submit build_data.sub**
 This command will queue your job for execution according to the resources specified in build_data.sub.
 
 Monitor the Job:
 You can monitor the status of your job using:
 bash
 
-**condor_q**
 
+
+
+
+
+**condor_q**
 To get more detailed information about your job's status, use:
 bash
 
@@ -46,6 +58,11 @@ If configured in your analyze_data.py, the output results (analysis.csv or simil
 
 Cleanup
 The script build_data.sh is designed to remove all intermediate files after the job completes. Ensure this behavior aligns with your data management policies and adjust if necessary.
+
+
+
+
+
 
 
 
