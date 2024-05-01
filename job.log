@@ -1,0 +1,1267 @@
+000 (253890.000.000) 2024-04-30 18:37:51 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253890.000.000) 2024-04-30 18:37:56 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=build1_2_1095235_e312_118832>
+...
+040 (253890.000.000) 2024-04-30 18:37:57 Finished transferring input files
+...
+001 (253890.000.000) 2024-04-30 18:37:57 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: build1_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1215798"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253890.000.000) 2024-04-30 18:37:57 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (253890.000.000) 2024-04-30 18:37:57 Started transferring output files
+...
+040 (253890.000.000) 2024-04-30 18:37:57 Finished transferring output files
+...
+007 (253890.000.000) 2024-04-30 18:37:57 Shadow exception!
+	Error from build1_2@build4002.chtc.wisc.edu: STARTER at 128.105.69.192 failed to send file(s) to <128.104.100.148:9618>: |Error: reading from file /var/lib/condor/execute/slot1/dir_1215798/outputfile.csv: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.192:35161>
+	0  -  Run Bytes Sent By Job
+	674  -  Run Bytes Received By Job
+...
+012 (253890.000.000) 2024-04-30 18:37:57 Job was held.
+	Transfer output files failure at execution point build1_2@build4002.chtc.wisc.edu while sending files to access point learn. Details: reading from file /var/lib/condor/execute/slot1/dir_1215798/outputfile.csv: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+000 (253891.000.000) 2024-04-30 18:38:40 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253891.000.000) 2024-04-30 18:38:42 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=build1_2_1095235_e312_118833>
+...
+040 (253891.000.000) 2024-04-30 18:38:43 Finished transferring input files
+...
+001 (253891.000.000) 2024-04-30 18:38:43 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: build1_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1218936"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253891.000.000) 2024-04-30 18:38:43 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	24  -  ResidentSetSize of job (KB)
+...
+040 (253891.000.000) 2024-04-30 18:38:43 Started transferring output files
+...
+040 (253891.000.000) 2024-04-30 18:38:43 Finished transferring output files
+...
+007 (253891.000.000) 2024-04-30 18:38:43 Shadow exception!
+	Error from build1_2@build4002.chtc.wisc.edu: STARTER at 128.105.69.192 failed to send file(s) to <128.104.100.148:9618>: |Error: reading from file /var/lib/condor/execute/slot1/dir_1218936/outputfile.csv: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.192:41303>
+	0  -  Run Bytes Sent By Job
+	674  -  Run Bytes Received By Job
+...
+012 (253891.000.000) 2024-04-30 18:38:43 Job was held.
+	Transfer output files failure at execution point build1_2@build4002.chtc.wisc.edu while sending files to access point learn. Details: reading from file /var/lib/condor/execute/slot1/dir_1218936/outputfile.csv: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+000 (253892.000.000) 2024-04-30 18:39:36 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253892.000.000) 2024-04-30 18:39:42 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=build1_2_1095235_e312_118834>
+...
+040 (253892.000.000) 2024-04-30 18:39:43 Finished transferring input files
+...
+001 (253892.000.000) 2024-04-30 18:39:44 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: build1_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1223237"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253892.000.000) 2024-04-30 18:39:44 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	20  -  ResidentSetSize of job (KB)
+...
+040 (253892.000.000) 2024-04-30 18:39:44 Started transferring output files
+...
+040 (253892.000.000) 2024-04-30 18:39:44 Finished transferring output files
+...
+005 (253892.000.000) 2024-04-30 18:39:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	674  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	674  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    61965  2097152   2098305 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        2                    
+
+	Job terminated of its own accord at 2024-04-30T23:39:44Z with exit-code 0.
+...
+009 (253890.000.000) 2024-04-30 18:41:09 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-04-30T23:37:57Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+009 (253891.000.000) 2024-04-30 18:41:09 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-04-30T23:38:43Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (253893.000.000) 2024-04-30 18:41:18 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253893.000.000) 2024-04-30 18:41:22 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=build1_2_1095235_e312_118840>
+...
+040 (253893.000.000) 2024-04-30 18:41:23 Finished transferring input files
+...
+001 (253893.000.000) 2024-04-30 18:41:24 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: build1_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1229517"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253893.000.000) 2024-04-30 18:41:24 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	20  -  ResidentSetSize of job (KB)
+...
+040 (253893.000.000) 2024-04-30 18:41:24 Started transferring output files
+...
+040 (253893.000.000) 2024-04-30 18:41:24 Finished transferring output files
+...
+005 (253893.000.000) 2024-04-30 18:41:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	674  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	674  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    61965  2097152   2098305 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        2                    
+
+	Job terminated of its own accord at 2024-04-30T23:41:24Z with exit-code 0.
+...
+000 (253894.000.000) 2024-04-30 18:43:39 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253894.000.000) 2024-04-30 18:43:42 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=build1_2_1095235_e312_118841>
+...
+040 (253894.000.000) 2024-04-30 18:43:43 Finished transferring input files
+...
+001 (253894.000.000) 2024-04-30 18:43:44 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: build1_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1236586"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253894.000.000) 2024-04-30 18:43:44 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	192  -  ResidentSetSize of job (KB)
+...
+040 (253894.000.000) 2024-04-30 18:43:44 Started transferring output files
+...
+040 (253894.000.000) 2024-04-30 18:43:44 Finished transferring output files
+...
+005 (253894.000.000) 2024-04-30 18:43:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	901  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	901  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    61955  2097152   2098305 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        2                    
+
+	Job terminated of its own accord at 2024-04-30T23:43:44Z with exit-code 0.
+...
+000 (253895.000.000) 2024-04-30 18:45:00 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253895.000.000) 2024-04-30 18:45:45 Started transferring input files
+	Transferring to host: <128.105.69.167:9618?addrs=128.105.69.167-9618+[2607-f388-2200-100-1270-fdff-fe56-686c]-9618&alias=e2550.chtc.wisc.edu&noUDP&sock=slot1_42_653125_6598_58744>
+...
+040 (253895.000.000) 2024-04-30 18:45:47 Finished transferring input files
+...
+001 (253895.000.000) 2024-04-30 18:45:48 Job executing on host: <128.105.69.167:9618?addrs=128.105.69.167-9618+[2607-f388-2200-100-1270-fdff-fe56-686c]-9618&alias=e2550.chtc.wisc.edu&noUDP&sock=startd_12715_02c9>
+	SlotName: slot1_42@e2550.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3974304"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253895.000.000) 2024-04-30 18:45:48 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	184  -  ResidentSetSize of job (KB)
+...
+040 (253895.000.000) 2024-04-30 18:45:48 Started transferring output files
+...
+040 (253895.000.000) 2024-04-30 18:45:48 Finished transferring output files
+...
+005 (253895.000.000) 2024-04-30 18:45:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	901  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	901  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    61964  2097152   2098305 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-04-30T23:45:48Z with exit-code 0.
+...
+000 (253896.000.000) 2024-04-30 18:49:31 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253896.000.000) 2024-04-30 18:49:37 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=interactive3_2_1095235_e312_118857>
+...
+040 (253896.000.000) 2024-04-30 18:49:38 Finished transferring input files
+...
+001 (253896.000.000) 2024-04-30 18:49:39 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: interactive3_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot3/dir_1262135"
+	Cpus = 1
+	Disk = 2098305
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253896.000.000) 2024-04-30 18:49:48 Image size of job updated: 1000
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+006 (253896.000.000) 2024-04-30 18:49:51 Image size of job updated: 7100
+	9  -  MemoryUsage of job (MB)
+	8492  -  ResidentSetSize of job (KB)
+...
+006 (253896.000.000) 2024-04-30 18:54:50 Image size of job updated: 4193032
+	4095  -  MemoryUsage of job (MB)
+	4192576  -  ResidentSetSize of job (KB)
+...
+007 (253896.000.000) 2024-04-30 18:54:51 Shadow exception!
+	Error from interactive3_2@build4002.chtc.wisc.edu: disk usage exceeded request_disk
+	0  -  Run Bytes Sent By Job
+	954  -  Run Bytes Received By Job
+...
+012 (253896.000.000) 2024-04-30 18:54:51 Job was held.
+	Error from interactive3_2@build4002.chtc.wisc.edu: disk usage exceeded request_disk
+	Code 21 Subcode 103
+...
+000 (253897.000.000) 2024-04-30 18:55:46 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253897.000.000) 2024-04-30 18:56:47 Started transferring input files
+	Transferring to host: <128.105.69.167:9618?addrs=128.105.69.167-9618+[2607-f388-2200-100-1270-fdff-fe56-686c]-9618&alias=e2550.chtc.wisc.edu&noUDP&sock=slot1_43_653125_6598_58765>
+...
+040 (253897.000.000) 2024-04-30 18:56:48 Finished transferring input files
+...
+001 (253897.000.000) 2024-04-30 18:56:49 Job executing on host: <128.105.69.167:9618?addrs=128.105.69.167-9618+[2607-f388-2200-100-1270-fdff-fe56-686c]-9618&alias=e2550.chtc.wisc.edu&noUDP&sock=startd_12715_02c9>
+	SlotName: slot1_43@e2550.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_4002080"
+	Cpus = 1
+	Disk = 26215553
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253897.000.000) 2024-04-30 18:56:49 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	12  -  ResidentSetSize of job (KB)
+...
+040 (253897.000.000) 2024-04-30 18:56:49 Started transferring output files
+...
+040 (253897.000.000) 2024-04-30 18:56:49 Finished transferring output files
+...
+005 (253897.000.000) 2024-04-30 18:56:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	987  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	987  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   119732 26214400  26215553 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        2                    
+
+	Job terminated of its own accord at 2024-04-30T23:56:49Z with exit-code 0.
+...
+009 (253896.000.000) 2024-04-30 18:58:04 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-04-30T23:49:51Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (253898.000.000) 2024-04-30 18:58:23 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253898.000.000) 2024-04-30 18:58:47 Started transferring input files
+	Transferring to host: <128.105.69.167:9618?addrs=128.105.69.167-9618+[2607-f388-2200-100-1270-fdff-fe56-686c]-9618&alias=e2550.chtc.wisc.edu&noUDP&sock=slot1_43_653125_6598_58774>
+...
+040 (253898.000.000) 2024-04-30 18:58:49 Finished transferring input files
+...
+001 (253898.000.000) 2024-04-30 18:58:50 Job executing on host: <128.105.69.167:9618?addrs=128.105.69.167-9618+[2607-f388-2200-100-1270-fdff-fe56-686c]-9618&alias=e2550.chtc.wisc.edu&noUDP&sock=startd_12715_02c9>
+	SlotName: slot1_43@e2550.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_4007196"
+	Cpus = 1
+	Disk = 26215553
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253898.000.000) 2024-04-30 18:58:50 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	196  -  ResidentSetSize of job (KB)
+...
+040 (253898.000.000) 2024-04-30 18:58:50 Started transferring output files
+...
+040 (253898.000.000) 2024-04-30 18:58:50 Finished transferring output files
+...
+005 (253898.000.000) 2024-04-30 18:58:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2126  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2126  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   119743 26214400  26215553 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-04-30T23:58:50Z with exit-code 0.
+...
+000 (253900.000.000) 2024-04-30 19:04:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253900.000.000) 2024-04-30 19:04:15 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=interactive3_2_1095235_e312_118883>
+...
+040 (253900.000.000) 2024-04-30 19:04:16 Finished transferring input files
+...
+001 (253900.000.000) 2024-04-30 19:04:17 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: interactive3_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot3/dir_1295901"
+	Cpus = 1
+	Disk = 26215553
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253900.000.000) 2024-04-30 19:04:26 Image size of job updated: 1192
+	1  -  MemoryUsage of job (MB)
+	964  -  ResidentSetSize of job (KB)
+...
+006 (253900.000.000) 2024-04-30 19:04:29 Image size of job updated: 7732
+	10  -  MemoryUsage of job (MB)
+	9476  -  ResidentSetSize of job (KB)
+...
+006 (253900.000.000) 2024-04-30 19:09:27 Image size of job updated: 814812
+	384  -  MemoryUsage of job (MB)
+	392996  -  ResidentSetSize of job (KB)
+...
+004 (253900.000.000) 2024-04-30 19:10:15 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:14, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	2126  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   457350 26214400  26215553 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      384     4096      4096 
+	   TimeExecute (s)      :      358                    
+	   TimeSlotBusy (s)     :      360                    
+...
+009 (253900.000.000) 2024-04-30 19:10:15 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-05-01T00:04:29Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (253901.000.000) 2024-04-30 19:10:44 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253901.000.000) 2024-04-30 19:10:45 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=interactive3_2_1095235_e312_118903>
+...
+040 (253901.000.000) 2024-04-30 19:10:47 Finished transferring input files
+...
+001 (253901.000.000) 2024-04-30 19:10:48 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: interactive3_2@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot3/dir_1303799"
+	Cpus = 1
+	Disk = 26215553
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253901.000.000) 2024-04-30 19:10:56 Image size of job updated: 1000
+	1  -  MemoryUsage of job (MB)
+	724  -  ResidentSetSize of job (KB)
+...
+006 (253901.000.000) 2024-04-30 19:10:58 Image size of job updated: 6576
+	8  -  MemoryUsage of job (MB)
+	8072  -  ResidentSetSize of job (KB)
+...
+006 (253901.000.000) 2024-04-30 19:15:56 Image size of job updated: 4193028
+	4094  -  MemoryUsage of job (MB)
+	4191868  -  ResidentSetSize of job (KB)
+...
+004 (253901.000.000) 2024-04-30 19:29:05 Job was evicted.
+	(0) CPU times
+		Usr 0 00:03:19, Sys 0 00:01:49  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	2127  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            : 23759071 26214400  26215553 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     4094     4096      4096 
+	   TimeExecute (s)      :     1094                    
+	   TimeSlotBusy (s)     :     1100                    
+...
+009 (253901.000.000) 2024-04-30 19:29:05 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-05-01T00:10:58Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (253904.000.000) 2024-04-30 19:30:37 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (253904.000.000) 2024-04-30 19:31:47 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (253904.000.000) 2024-04-30 19:32:47 Started transferring input files
+	Transferring to host: <128.105.69.53:9618?addrs=128.105.69.53-9618&alias=herringa2001.chtc.wisc.edu&noUDP&sock=slot1_28_3243135_bec2_50802>
+...
+040 (253904.000.000) 2024-04-30 19:32:49 Finished transferring input files
+...
+001 (253904.000.000) 2024-04-30 19:32:50 Job executing on host: <128.105.69.53:9618?addrs=128.105.69.53-9618&alias=herringa2001.chtc.wisc.edu&noUDP&sock=startd_19031_42f4>
+	SlotName: slot1_28@herringa2001.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_570740"
+	Cpus = 1
+	Disk = 26220016
+	GPUs = 0
+	Memory = 4096
+...
+006 (253904.000.000) 2024-04-30 19:32:50 Image size of job updated: 520
+	1  -  MemoryUsage of job (MB)
+	8  -  ResidentSetSize of job (KB)
+...
+040 (253904.000.000) 2024-04-30 19:32:51 Started transferring output files
+...
+040 (253904.000.000) 2024-04-30 19:32:51 Finished transferring output files
+...
+005 (253904.000.000) 2024-04-30 19:32:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2720  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2720  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   119743 26214400  26220016 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2024-05-01T00:32:50Z with exit-code 0.
+...
+000 (253909.000.000) 2024-04-30 19:34:01 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+
+000 (253924.000.000) 2024-04-30 21:00:57 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253924.000.000) 2024-04-30 21:01:48 Started transferring input files
+	Transferring to host: <128.105.68.106:9618?addrs=128.105.68.106-9618+[2607-f388-2200-100-42a6-b7ff-fe82-f6c0]-9618&alias=voyles2000.chtc.wisc.edu&noUDP&sock=backfill5_19_1670764_21de_1493>
+...
+040 (253924.000.000) 2024-04-30 21:01:49 Finished transferring input files
+...
+001 (253924.000.000) 2024-04-30 21:01:49 Job executing on host: <128.105.68.106:9618?addrs=128.105.68.106-9618+[2607-f388-2200-100-42a6-b7ff-fe82-f6c0]-9618&alias=voyles2000.chtc.wisc.edu&noUDP&sock=startd_1670699_2133>
+	SlotName: backfill5_19@voyles2000.chtc.wisc.edu
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/slot5/dir_2001258"
+	Cpus = 1
+	Disk = 31459825
+	GPUs = 0
+	Memory = 4096
+...
+006 (253924.000.000) 2024-04-30 21:01:49 Image size of job updated: 772
+	1  -  MemoryUsage of job (MB)
+	232  -  ResidentSetSize of job (KB)
+...
+040 (253924.000.000) 2024-04-30 21:01:49 Started transferring output files
+...
+040 (253924.000.000) 2024-04-30 21:01:49 Finished transferring output files
+...
+007 (253924.000.000) 2024-04-30 21:01:49 Shadow exception!
+	Error from backfill5_19@voyles2000.chtc.wisc.edu: STARTER at 128.105.68.106 failed to send file(s) to <128.104.100.148:9618>: |Error: reading from file /var/lib/condor/execute/slot5/dir_2001258/actors.csv: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.68.106:36969>
+	0  -  Run Bytes Sent By Job
+	2455  -  Run Bytes Received By Job
+...
+012 (253924.000.000) 2024-04-30 21:01:49 Job was held.
+	Transfer output files failure at execution point backfill5_19@voyles2000.chtc.wisc.edu while sending files to access point learn. Details: reading from file /var/lib/condor/execute/slot5/dir_2001258/actors.csv: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (253924.000.000) 2024-04-30 21:17:59 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-05-01T02:01:49Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (253931.000.000) 2024-04-30 21:24:36 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253931.000.000) 2024-04-30 21:25:47 Started transferring input files
+	Transferring to host: <128.105.69.179:9618?addrs=128.105.69.179-9618+[2607-f388-2200-100-1270-fdff-fe56-778c]-9618&alias=e2562.chtc.wisc.edu&noUDP&sock=slot1_8_2414440_267f_63467>
+...
+040 (253931.000.000) 2024-04-30 21:25:48 Finished transferring input files
+...
+001 (253931.000.000) 2024-04-30 21:25:48 Job executing on host: <128.105.69.179:9618?addrs=128.105.69.179-9618+[2607-f388-2200-100-1270-fdff-fe56-778c]-9618&alias=e2562.chtc.wisc.edu&noUDP&sock=startd_12718_1192>
+	SlotName: slot1_8@e2562.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_959000"
+	Cpus = 1
+	Disk = 31458433
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253931.000.000) 2024-04-30 21:25:48 Image size of job updated: 524
+	1  -  MemoryUsage of job (MB)
+	192  -  ResidentSetSize of job (KB)
+...
+040 (253931.000.000) 2024-04-30 21:25:48 Started transferring output files
+...
+040 (253931.000.000) 2024-04-30 21:25:48 Finished transferring output files
+...
+007 (253931.000.000) 2024-04-30 21:25:48 Shadow exception!
+	Error from slot1_8@e2562.chtc.wisc.edu: STARTER at 128.105.69.179 failed to send file(s) to <128.104.100.148:9618>: |Error: reading from file /var/lib/condor/execute/slot1/dir_959000/actors.csv: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.179:46367>
+	0  -  Run Bytes Sent By Job
+	2657  -  Run Bytes Received By Job
+...
+012 (253931.000.000) 2024-04-30 21:25:48 Job was held.
+	Transfer output files failure at execution point slot1_8@e2562.chtc.wisc.edu while sending files to access point learn. Details: reading from file /var/lib/condor/execute/slot1/dir_959000/actors.csv: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+000 (253935.000.000) 2024-04-30 21:35:41 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253935.000.000) 2024-04-30 21:36:49 Started transferring input files
+	Transferring to host: <128.105.69.92:9618?addrs=128.105.69.92-9618+[2607-f388-2200-100-1270-fdff-fe56-689c]-9618&alias=e4003.chtc.wisc.edu&noUDP&sock=slot1_60_658654_13d9_51289>
+...
+040 (253935.000.000) 2024-04-30 21:36:50 Finished transferring input files
+...
+001 (253935.000.000) 2024-04-30 21:36:50 Job executing on host: <128.105.69.92:9618?addrs=128.105.69.92-9618+[2607-f388-2200-100-1270-fdff-fe56-689c]-9618&alias=e4003.chtc.wisc.edu&noUDP&sock=startd_949623_f860>
+	SlotName: slot1_60@e4003.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2102756"
+	Cpus = 1
+	Disk = 31458490
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253935.000.000) 2024-04-30 21:36:50 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	196  -  ResidentSetSize of job (KB)
+...
+040 (253935.000.000) 2024-04-30 21:36:50 Started transferring output files
+...
+040 (253935.000.000) 2024-04-30 21:36:50 Finished transferring output files
+...
+007 (253935.000.000) 2024-04-30 21:36:50 Shadow exception!
+	Error from slot1_60@e4003.chtc.wisc.edu: STARTER at 128.105.69.92 failed to send file(s) to <128.104.100.148:9618>: |Error: reading from file /var/lib/condor/execute/slot1/dir_2102756/actors.csv: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.92:35255>
+	0  -  Run Bytes Sent By Job
+	2657  -  Run Bytes Received By Job
+...
+012 (253935.000.000) 2024-04-30 21:36:50 Job was held.
+	Transfer output files failure at execution point slot1_60@e4003.chtc.wisc.edu while sending files to access point learn. Details: reading from file /var/lib/condor/execute/slot1/dir_2102756/actors.csv: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+000 (253936.000.000) 2024-04-30 21:44:23 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253936.000.000) 2024-04-30 21:44:50 Started transferring input files
+	Transferring to host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=slot1_39_2647251_8f9b_82554>
+...
+040 (253936.000.000) 2024-04-30 21:44:52 Finished transferring input files
+...
+001 (253936.000.000) 2024-04-30 21:44:52 Job executing on host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=startd_13214_488b>
+	SlotName: slot1_39@e4005.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3538745"
+	Cpus = 1
+	Disk = 31458490
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253936.000.000) 2024-04-30 21:44:52 Image size of job updated: 752
+	1  -  MemoryUsage of job (MB)
+	24  -  ResidentSetSize of job (KB)
+...
+040 (253936.000.000) 2024-04-30 21:44:52 Started transferring output files
+...
+040 (253936.000.000) 2024-04-30 21:44:52 Finished transferring output files
+...
+007 (253936.000.000) 2024-04-30 21:44:52 Shadow exception!
+	Error from slot1_39@e4005.chtc.wisc.edu: STARTER at 128.105.69.94 failed to send file(s) to <128.104.100.148:9618>: |Error: reading from file /var/lib/condor/execute/slot1/dir_3538745/actors.csv: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.105.69.94:39439>
+	0  -  Run Bytes Sent By Job
+	2657  -  Run Bytes Received By Job
+...
+012 (253936.000.000) 2024-04-30 21:44:52 Job was held.
+	Transfer output files failure at execution point slot1_39@e4005.chtc.wisc.edu while sending files to access point learn. Details: reading from file /var/lib/condor/execute/slot1/dir_3538745/actors.csv: (errno 2) No such file or directory
+	Code 12 Subcode 2
+...
+009 (253931.000.000) 2024-04-30 21:45:13 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-05-01T02:25:48Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+009 (253935.000.000) 2024-04-30 21:45:13 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-05-01T02:36:50Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+009 (253936.000.000) 2024-04-30 21:45:13 Job was aborted.
+	via condor_rm (by user jrchristens2)
+
+	Job terminated by itself at 2024-05-01T02:44:52Z (using method 0: OF_ITS_OWN_ACCORD).
+...
+000 (253937.000.000) 2024-04-30 21:45:26 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253937.000.000) 2024-04-30 21:45:50 Started transferring input files
+	Transferring to host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=slot1_39_2647251_8f9b_82555>
+...
+040 (253937.000.000) 2024-04-30 21:45:52 Finished transferring input files
+...
+001 (253937.000.000) 2024-04-30 21:45:53 Job executing on host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=startd_13214_488b>
+	SlotName: slot1_39@e4005.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3564076"
+	Cpus = 1
+	Disk = 31458490
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253937.000.000) 2024-04-30 21:45:53 Image size of job updated: 2
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (253937.000.000) 2024-04-30 21:45:53 Started transferring output files
+...
+040 (253937.000.000) 2024-04-30 21:45:53 Finished transferring output files
+...
+005 (253937.000.000) 2024-04-30 21:45:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2657  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2657  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    61940 31457280  31458490 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        0     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        6                    
+
+	Job terminated of its own accord at 2024-05-01T02:45:53Z with exit-code 0.
+...
+000 (253938.000.000) 2024-04-30 21:47:52 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253938.000.000) 2024-04-30 21:48:50 Started transferring input files
+	Transferring to host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=slot1_37_2647251_8f9b_82572>
+...
+040 (253938.000.000) 2024-04-30 21:48:52 Finished transferring input files
+...
+001 (253938.000.000) 2024-04-30 21:48:53 Job executing on host: <128.105.69.94:9618?addrs=128.105.69.94-9618+[2607-f388-2200-100-1270-fdff-fe56-3dcc]-9618&alias=e4005.chtc.wisc.edu&noUDP&sock=startd_13214_488b>
+	SlotName: slot1_37@e4005.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_3717397"
+	Cpus = 1
+	Disk = 31458490
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253938.000.000) 2024-04-30 21:48:53 Image size of job updated: 2
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (253938.000.000) 2024-04-30 21:48:53 Started transferring output files
+...
+040 (253938.000.000) 2024-04-30 21:48:53 Finished transferring output files
+...
+005 (253938.000.000) 2024-04-30 21:48:54 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2657  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2657  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    61940 31457280  31458490 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        0     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        6                    
+
+	Job terminated of its own accord at 2024-05-01T02:48:53Z with exit-code 0.
+...
+000 (253939.000.000) 2024-04-30 21:49:22 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (253939.000.000) 2024-04-30 21:49:25 Started transferring input files
+	Transferring to host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=interactive3_3_1095235_e312_119232>
+...
+040 (253939.000.000) 2024-04-30 21:49:26 Finished transferring input files
+...
+001 (253939.000.000) 2024-04-30 21:49:27 Job executing on host: <128.105.69.192:9618?addrs=128.105.69.192-9618+[2607-f388-2200-100-1270-fdff-fe56-bc04]-9618&alias=build4002.chtc.wisc.edu&noUDP&sock=startd_2072560_59af>
+	SlotName: interactive3_3@build4002.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot3/dir_1388008"
+	Cpus = 1
+	Disk = 31458433
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253939.000.000) 2024-04-30 21:49:35 Image size of job updated: 1184
+	1  -  MemoryUsage of job (MB)
+	984  -  ResidentSetSize of job (KB)
+...
+006 (253939.000.000) 2024-04-30 21:49:36 Image size of job updated: 9060
+	11  -  MemoryUsage of job (MB)
+	10776  -  ResidentSetSize of job (KB)
+...
+006 (253939.000.000) 2024-04-30 21:54:35 Image size of job updated: 4193028
+	4095  -  MemoryUsage of job (MB)
+	4192516  -  ResidentSetSize of job (KB)
+...
+040 (253939.000.000) 2024-04-30 22:15:38 Started transferring output files
+...
+040 (253939.000.000) 2024-04-30 22:15:54 Finished transferring output files
+...
+005 (253939.000.000) 2024-04-30 22:15:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:57, Sys 0 00:01:59  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:57, Sys 0 00:01:59  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	650582592  -  Run Bytes Sent By Job
+	2657  -  Run Bytes Received By Job
+	650582592  -  Total Bytes Sent By Job
+	2657  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            : 23460205 31457280  31458433 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     4095     4096      4096 
+	   TimeExecute (s)      :     1570                    
+	   TimeSlotBusy (s)     :     1591                    
+
+	Job terminated of its own accord at 2024-05-01T02:49:36Z with signal 15.
+...
+000 (253940.000.000) 2024-04-30 22:16:59 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (253940.000.000) 2024-04-30 22:17:16 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:17:22 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:17:28 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:17:35 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:17:41 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:18:16 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:18:22 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:18:28 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:18:34 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:18:40 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:19:19 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:19:25 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:19:31 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:19:37 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:19:43 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:20:16 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:20:22 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:20:28 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:20:34 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:20:40 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:21:18 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:21:24 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:21:30 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:21:36 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:21:42 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:22:16 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:22:23 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:22:29 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253940.000.000) 2024-04-30 22:22:35 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (253940.000.000) 2024-04-30 22:23:15 Started transferring input files
+	Transferring to host: <128.105.69.221:9618?addrs=128.105.69.221-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-2304]-9618&alias=e2604.chtc.wisc.edu&noUDP&sock=slot1_32_3532873_6088_67313>
+...
+040 (253940.000.000) 2024-04-30 22:23:17 Finished transferring input files
+...
+001 (253940.000.000) 2024-04-30 22:23:18 Job executing on host: <128.105.69.221:9618?addrs=128.105.69.221-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-2304]-9618&alias=e2604.chtc.wisc.edu&noUDP&sock=startd_16122_edf4>
+	SlotName: slot1_32@e2604.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_753754"
+	Cpus = 1
+	Disk = 31458672
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253940.000.000) 2024-04-30 22:23:18 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (253940.000.000) 2024-04-30 22:23:18 Started transferring output files
+...
+040 (253940.000.000) 2024-04-30 22:23:18 Finished transferring output files
+...
+005 (253940.000.000) 2024-04-30 22:23:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2295  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2295  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    61966 31457280  31458672 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        0     4096      4096 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-05-01T03:23:18Z with exit-code 0.
+...
+000 (253941.000.000) 2024-04-30 22:28:10 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (253941.000.000) 2024-04-30 22:28:15 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253941.000.000) 2024-04-30 22:28:21 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253941.000.000) 2024-04-30 22:28:27 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253941.000.000) 2024-04-30 22:28:33 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253941.000.000) 2024-04-30 22:28:39 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+000 (253945.000.000) 2024-04-30 23:49:21 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (253945.000.000) 2024-04-30 23:50:17 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:50:23 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:50:30 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:50:36 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:50:42 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:51:17 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:51:23 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:51:29 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:51:36 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:51:42 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:52:17 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:52:23 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:52:29 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:52:35 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:52:41 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:53:22 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:53:28 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:53:34 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:53:40 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:53:47 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:54:18 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:54:24 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:54:30 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:54:36 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:54:42 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:55:19 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:55:25 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:55:31 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:55:37 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:55:43 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:56:16 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:56:22 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:56:28 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:56:34 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253945.000.000) 2024-04-30 23:56:40 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (253945.000.000) 2024-04-30 23:57:16 Started transferring input files
+	Transferring to host: <128.105.69.170:9618?addrs=128.105.69.170-9618+[2607-f388-2200-100-1270-fdff-fe56-6a0c]-9618&alias=e2553.chtc.wisc.edu&noUDP&sock=slot1_20_3834731_a53b_66125>
+...
+040 (253945.000.000) 2024-04-30 23:57:17 Finished transferring input files
+...
+001 (253945.000.000) 2024-04-30 23:57:18 Job executing on host: <128.105.69.170:9618?addrs=128.105.69.170-9618+[2607-f388-2200-100-1270-fdff-fe56-6a0c]-9618&alias=e2553.chtc.wisc.edu&noUDP&sock=startd_12534_dc25>
+	SlotName: slot1_20@e2553.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_218871"
+	Cpus = 1
+	Disk = 31458433
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 4096
+...
+006 (253945.000.000) 2024-04-30 23:57:19 Image size of job updated: 512
+	1  -  MemoryUsage of job (MB)
+	188  -  ResidentSetSize of job (KB)
+...
+040 (253945.000.000) 2024-04-30 23:57:19 Started transferring output files
+...
+040 (253945.000.000) 2024-04-30 23:57:19 Finished transferring output files
+...
+005 (253945.000.000) 2024-04-30 23:57:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2295  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2295  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    61957 31457280  31458433 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     4096      4096 
+	   TimeExecute (s)      :        1                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-05-01T04:57:19Z with exit-code 0.
+...
