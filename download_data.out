@@ -1,68 +1,115 @@
 Collecting kaggle
   Downloading kaggle-1.6.12.tar.gz (79 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.7/79.7 KB 4.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.7/79.7 KB 9.9 MB/s eta 0:00:00
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
 Collecting numpy
   Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 51.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.7/15.7 MB 93.9 MB/s eta 0:00:00
 Collecting pandas
   Downloading pandas-1.3.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 59.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 86.3 MB/s eta 0:00:00
 Collecting scikit-learn
   Downloading scikit_learn-1.0.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (24.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.8/24.8 MB 40.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.8/24.8 MB 67.4 MB/s eta 0:00:00
+Collecting matplotlib
+  Downloading matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 119.0 MB/s eta 0:00:00
+Collecting seaborn
+  Downloading seaborn-0.12.2-py3-none-any.whl (293 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 293.3/293.3 KB 84.2 MB/s eta 0:00:00
 Collecting six>=1.10
   Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
 Collecting certifi>=2023.7.22
   Downloading certifi-2024.2.2-py3-none-any.whl (163 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.8/163.8 KB 29.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.8/163.8 KB 65.2 MB/s eta 0:00:00
 Collecting python-dateutil
   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 33.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 75.5 MB/s eta 0:00:00
 Collecting requests
   Downloading requests-2.31.0-py3-none-any.whl (62 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 KB 16.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 KB 33.6 MB/s eta 0:00:00
 Collecting tqdm
   Downloading tqdm-4.66.2-py3-none-any.whl (78 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 KB 20.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 KB 41.5 MB/s eta 0:00:00
 Collecting python-slugify
   Downloading python_slugify-8.0.4-py2.py3-none-any.whl (10 kB)
 Collecting urllib3
   Downloading urllib3-2.0.7-py3-none-any.whl (124 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 KB 31.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 KB 56.6 MB/s eta 0:00:00
 Collecting bleach
   Downloading bleach-6.0.0-py3-none-any.whl (162 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.5/162.5 KB 32.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.5/162.5 KB 66.0 MB/s eta 0:00:00
 Collecting pytz>=2017.3
   Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 KB 48.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 KB 98.5 MB/s eta 0:00:00
 Collecting joblib>=0.11
   Downloading joblib-1.3.2-py3-none-any.whl (302 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 302.2/302.2 KB 44.6 MB/s eta 0:00:00
-Collecting scipy>=1.1.0
-  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.1/38.1 MB 32.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 302.2/302.2 KB 85.0 MB/s eta 0:00:00
 Collecting threadpoolctl>=2.0.0
   Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting scipy>=1.1.0
+  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.1/38.1 MB 47.3 MB/s eta 0:00:00
+Collecting pillow>=6.2.0
+  Downloading Pillow-9.5.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 121.8 MB/s eta 0:00:00
+Collecting pyparsing>=2.2.1
+  Downloading pyparsing-3.1.2-py3-none-any.whl (103 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.2/103.2 KB 50.3 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-24.0-py3-none-any.whl (53 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.5/53.5 KB 29.7 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 118.2 MB/s eta 0:00:00
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 965.4/965.4 KB 113.8 MB/s eta 0:00:00
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting typing_extensions
+  Downloading typing_extensions-4.7.1-py3-none-any.whl (33 kB)
 Collecting webencodings
   Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
 Collecting text-unidecode>=1.3
   Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.2/78.2 KB 16.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.2/78.2 KB 43.0 MB/s eta 0:00:00
 Collecting charset-normalizer<4,>=2
   Downloading charset_normalizer-3.3.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (136 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 136.8/136.8 KB 27.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 136.8/136.8 KB 60.7 MB/s eta 0:00:00
 Collecting idna<4,>=2.5
   Downloading idna-3.7-py3-none-any.whl (66 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 KB 14.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 KB 35.9 MB/s eta 0:00:00
 Using legacy 'setup.py install' for kaggle, since package 'wheel' is not installed.
-Installing collected packages: webencodings, text-unidecode, pytz, urllib3, tqdm, threadpoolctl, six, python-slugify, numpy, joblib, idna, charset-normalizer, certifi, scipy, requests, python-dateutil, bleach, scikit-learn, pandas, kaggle
+Installing collected packages: webencodings, text-unidecode, pytz, urllib3, typing_extensions, tqdm, threadpoolctl, six, python-slugify, pyparsing, pillow, packaging, numpy, joblib, idna, fonttools, cycler, charset-normalizer, certifi, scipy, requests, python-dateutil, kiwisolver, bleach, scikit-learn, pandas, matplotlib, kaggle, seaborn
   Running setup.py install for kaggle: started
   Running setup.py install for kaggle: finished with status 'done'
-Successfully installed bleach-6.0.0 certifi-2024.2.2 charset-normalizer-3.3.2 idna-3.7 joblib-1.3.2 kaggle-1.6.12 numpy-1.21.6 pandas-1.3.5 python-dateutil-2.9.0.post0 python-slugify-8.0.4 pytz-2024.1 requests-2.31.0 scikit-learn-1.0.2 scipy-1.7.3 six-1.16.0 text-unidecode-1.3 threadpoolctl-3.1.0 tqdm-4.66.2 urllib3-2.0.7 webencodings-0.5.1
+Successfully installed bleach-6.0.0 certifi-2024.2.2 charset-normalizer-3.3.2 cycler-0.11.0 fonttools-4.38.0 idna-3.7 joblib-1.3.2 kaggle-1.6.12 kiwisolver-1.4.5 matplotlib-3.5.3 numpy-1.21.6 packaging-24.0 pandas-1.3.5 pillow-9.5.0 pyparsing-3.1.2 python-dateutil-2.9.0.post0 python-slugify-8.0.4 pytz-2024.1 requests-2.31.0 scikit-learn-1.0.2 scipy-1.7.3 seaborn-0.12.2 six-1.16.0 text-unidecode-1.3 threadpoolctl-3.1.0 tqdm-4.66.2 typing_extensions-4.7.1 urllib3-2.0.7 webencodings-0.5.1
 Kaggle API 1.6.12
 Dataset URL: https://www.kaggle.com/datasets/gsimonx37/letterboxd
 License(s): GPL-3.0
-Downloading letterboxd.zip to /var/lib/condor/execute/slot1/dir_1625026
+Downloading letterboxd.zip to /var/lib/condor/execute/slot1/dir_1208695
 
+minute: 0.011311917012825922
+year: -3.3306690738754696e-16
+genre_Action: -0.6174866459917985
+genre_Adventure: -0.5427838872836614
+genre_Animation: -0.02316642403225703
+genre_Comedy: -0.35178141500309007
+genre_Crime: -0.19305993549373063
+genre_Documentary: 0.24032513773235759
+genre_Drama: -0.04669762291322371
+genre_Family: -0.5261524888435989
+genre_Fantasy: -0.45001545414894056
+genre_History: 0.0936982712479018
+genre_Horror: -0.9108186624306611
+genre_Music: 0.12802885584905507
+genre_Mystery: -0.35886526160414794
+genre_Romance: -0.2767231610459799
+genre_Science Fiction: -0.7056841133516069
+genre_TV Movie: -0.49398922593537825
+genre_Thriller: -0.6210660613745453
+genre_War: 0.052700062345219255
+genre_Western: -0.04300098850451541
+cluster: 0.21058153582686587
