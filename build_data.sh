@@ -23,3 +23,6 @@ kaggle datasets download -d gsimonx37/letterboxd -p $PWD --unzip
 unzip letterboxd.zip
 
 python3 analyze_data.py
+
+# Clean up downloaded and intermediate files to prevent them from being transferred back
+rm -f letterboxd.zip *.csv
