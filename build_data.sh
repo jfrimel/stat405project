@@ -22,15 +22,4 @@ kaggle datasets download -d gsimonx37/letterboxd -p $PWD --unzip
 # Extract the dataset files
 unzip letterboxd.zip
 
-# Unzip the dataset if not already unzipped by Kaggle CLI
-for z in *.zip; do
-    unzip "$z"
-done
-
-# Remove zip files to save space
-rm -f *.zip
-
-# Make sure the output is set to transfer back
-for f in *.csv; do
-    mv "$f" $_CONDOR_SCRATCH_DIR/
-done
+python3 analyze_data.py
