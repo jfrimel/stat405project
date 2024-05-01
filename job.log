@@ -1265,3 +1265,45 @@
 
 	Job terminated of its own accord at 2024-05-01T04:57:19Z with exit-code 0.
 ...
+000 (253947.000.000) 2024-05-01 00:02:02 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (253947.000.000) 2024-05-01 00:02:18 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:02:24 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:02:30 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:03:18 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:03:24 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:03:31 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:03:37 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (253947.000.000) 2024-05-01 00:03:43 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
