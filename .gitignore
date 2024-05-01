@@ -1,6 +1,10 @@
 my_python_env.tar.gz
+<<<<<<< HEAD
 my_r_env.tar.gz
 *.csvactors.csv
 movies.csv
 crew.csv
 *.csv
+=======
+my_r_env.tar.gz
+>>>>>>> 0609475ff05ca17bb5c79e2e44a36bc5a5672550
