@@ -1,100 +1,81 @@
 import pandas as pd
 import numpy as np
-from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Define paths to files
+# Paths to files
 files = {
     "movies": "movies.csv",
     "actors": "actors.csv",
     "genres": "genres.csv",
     "countries": "countries.csv",
-    "crew": "crew.csv",
     "languages": "languages.csv",
     "releases": "releases.csv",
-    "studios": "studios.csv",
-    "themes": "themes.csv"
+    "studios": "studios.csv"
 }
 
-# Load datasets in chunks and reduce memory usage
-def load_data(file_path, usecols=None, chunksize=50000):
-    chunks = pd.read_csv(file_path, usecols=usecols, chunksize=chunksize)
-    df_list = []
-    for chunk in chunks:
-        df_list.append(chunk)
-    return pd.concat(df_list, ignore_index=True)
+# Function to load and concatenate data
+def load_data(files):
+    data_frames = {}
+    for key, filepath in files.items():
+        try:
+            data_frames[key] = pd.read_csv(filepath)
+            print(f"Loaded {key} successfully!")
+        except Exception as e:
+            print(f"Failed to load {key}: {e}")
+    return data_frames
 
-# Example usage
-try:
-    movies = load_data(files['movies'], usecols=['id', 'name', 'date', 'minute', 'rating'])
-    genres = load_data(files['genres'], usecols=['id', 'genre'])
-except Exception as e:
-    print("Error loading data:", e)
-    exit()
+# Load all data
+dfs = load_data(files)
 
 # Merge datasets
-try:
-    df = pd.merge(movies, genres, on='id', how='left')
-except Exception as e:
-    print("Error during merging:", e)
-    exit()
+df = dfs['movies']
+df = df.merge(dfs['genres'], on='id', how='left')
+df = df.merge(dfs['countries'], on='id', how='left')
+df = df.merge(dfs['languages'], on='id', how='left')
+df = df.merge(dfs['releases'], on='id', how='left')
 
-# Convert date to datetime and extract year
+# Basic Cleaning
+df.dropna(subset=['rating'], inplace=True)
 df['year'] = pd.to_datetime(df['date']).dt.year
 
-# Feature Engineering
-df.drop(['date'], axis=1, inplace=True)
-df = pd.get_dummies(df, columns=['genre'])
+# One-hot encoding for categorical data
+df = pd.get_dummies(df, columns=['genre', 'country', 'language', 'type'])
 
-# Clean data: Remove NaN and infinite values before scaling
-df.replace([np.inf, -np.inf], np.nan, inplace=True)
-df.dropna(inplace=True)
-
-# Scale features
+# Feature scaling
 scaler = StandardScaler()
 df[['minute', 'rating']] = scaler.fit_transform(df[['minute', 'rating']])
 
-# Clustering
-kmeans = KMeans(n_clusters=5, random_state=42)
-df['cluster'] = kmeans.fit_predict(df[['minute', 'rating']])
-
-# Visualization of clusters
-plt.scatter(df['minute'], df['rating'], c=df['cluster'])
-plt.title('Cluster of Movies')
-plt.xlabel('Normalized Minutes')
-plt.ylabel('Normalized Ratings')
-plt.colorbar(label='Cluster')
-plt.savefig('clusters.png')  # Save the plot as a PNG file
-plt.show()
-
-# Regression
-X = df.drop(['rating', 'name', 'id'], axis=1)
+# Linear Regression
+X = df.drop(['id', 'name', 'date', 'rating', 'description', 'tagline'], axis=1)
 y = df['rating']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# Print model coefficients mapped to feature names
-feature_names = X_train.columns
-coef_dict = {feature: coef for feature, coef in zip(feature_names, model.coef_)}
-for feature, coef in coef_dict.items():
-    print(f"{feature}: {coef}")
+# Save linear regression results to a CSV file
+results_df = pd.DataFrame({'Actual': y_test, 'Predicted': model.predict(X_test)})
+results_df.to_csv('linear_regression_results.csv', index=False)
 
-# Visualization of feature importance
-features = list(coef_dict.keys())
-coefficients = list(coef_dict.values())
+# Feature Importance Visualization
+coefficients = pd.DataFrame(model.coef_, X.columns, columns=['Coefficient'])
+coefficients.sort_values(by='Coefficient', ascending=True, inplace=True)
 
 plt.figure(figsize=(10, 8))
-plt.barh(features, coefficients, color='blue')
-plt.xlabel('Importance')
-plt.ylabel('Features')
-plt.title('Feature Importance')
-plt.savefig('feature_importance.png')  # Save the plot as a PNG file
+sns.barplot(x=coefficients.Coefficient, y=coefficients.index)
+plt.title('Feature Importance in Predicting Movie Ratings')
+plt.xlabel('Coefficient')
+plt.ylabel('Feature')
+plt.savefig('feature_importance_all_factors.png')
 plt.show()
 
-# Optionally, save the processed data to a new CSV
-df.to_csv('processed_data.csv', index=False)
+# Correlation Heatmap
+plt.figure(figsize=(12, 10))
+sns.heatmap(df.corr(), cmap='coolwarm')
+plt.title('Correlation Heatmap of Movie Features')
+plt.savefig('correlation_heatmap.png')
+plt.show()
