@@ -32,22 +32,22 @@ Collecting pytz>=2017.3
   Using cached pytz-2024.1-py2.py3-none-any.whl (505 kB)
 Collecting scipy>=1.1.0
   Using cached scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
-Collecting threadpoolctl>=2.0.0
-  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
 Collecting joblib>=0.11
   Using cached joblib-1.3.2-py3-none-any.whl (302 kB)
-Collecting packaging>=20.0
-  Using cached packaging-24.0-py3-none-any.whl (53 kB)
-Collecting pillow>=6.2.0
-  Using cached Pillow-9.5.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting pyparsing>=2.2.1
+  Using cached pyparsing-3.1.2-py3-none-any.whl (103 kB)
 Collecting fonttools>=4.22.0
   Using cached fonttools-4.38.0-py3-none-any.whl (965 kB)
 Collecting cycler>=0.10
   Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting packaging>=20.0
+  Using cached packaging-24.0-py3-none-any.whl (53 kB)
+Collecting pillow>=6.2.0
+  Using cached Pillow-9.5.0-cp37-cp37m-manylinux_2_28_x86_64.whl (3.4 MB)
 Collecting kiwisolver>=1.0.1
   Using cached kiwisolver-1.4.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
-Collecting pyparsing>=2.2.1
-  Using cached pyparsing-3.1.2-py3-none-any.whl (103 kB)
 Collecting typing_extensions
   Using cached typing_extensions-4.7.1-py3-none-any.whl (33 kB)
 Collecting webencodings
@@ -66,5 +66,27 @@ Successfully installed bleach-6.0.0 certifi-2024.2.2 charset-normalizer-3.3.2 cy
 Kaggle API 1.6.12
 Dataset URL: https://www.kaggle.com/datasets/gsimonx37/letterboxd
 License(s): GPL-3.0
-Downloading letterboxd.zip to /var/lib/condor/execute/slot1/dir_3166836
+Downloading letterboxd.zip to /var/lib/condor/execute/slot1/dir_3526432
 
+minute: 0.011311917012825922
+year: -3.3306690738754696e-16
+genre_Action: -0.6174866459917985
+genre_Adventure: -0.5427838872836614
+genre_Animation: -0.02316642403225703
+genre_Comedy: -0.35178141500309007
+genre_Crime: -0.19305993549373063
+genre_Documentary: 0.24032513773235759
+genre_Drama: -0.04669762291322371
+genre_Family: -0.5261524888435989
+genre_Fantasy: -0.45001545414894056
+genre_History: 0.0936982712479018
+genre_Horror: -0.9108186624306611
+genre_Music: 0.12802885584905507
+genre_Mystery: -0.35886526160414794
+genre_Romance: -0.2767231610459799
+genre_Science Fiction: -0.7056841133516069
+genre_TV Movie: -0.49398922593537825
+genre_Thriller: -0.6210660613745453
+genre_War: 0.052700062345219255
+genre_Western: -0.04300098850451541
+cluster: 0.21058153582686587

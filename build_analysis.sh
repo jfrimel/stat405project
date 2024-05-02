@@ -22,7 +22,8 @@ kaggle datasets download -d gsimonx37/letterboxd -p $PWD --unzip
 # Extract the dataset files
 #unzip letterboxd.zip
 
-python3 analyze_data.py analyze_data_2.py
+python3 analyze_data.py 
+python3 analyze_data_2.py
 
 # Clean up downloaded and intermediate files to prevent them from being transferred back
 #rm -f *.csv
